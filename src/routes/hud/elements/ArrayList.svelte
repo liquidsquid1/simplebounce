@@ -71,7 +71,7 @@
     padding: 0px 2px;
     width: max-content;
     font-weight: 400;
-    margin-right: auto;
+    margin-left: auto;
   }
 
   .tag {
