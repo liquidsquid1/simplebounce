@@ -18,6 +18,7 @@ The cleanest and simplest theme for liquidbounce.*
 
 <h1>Installation:</h1>
 - Clone the theme using Git, either on the "Download Zip" button on this page or through CLI
+
 ```
 git clone https://github.com/liquidsquid1/simplebounce.git
 ```
