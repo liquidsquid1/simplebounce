@@ -92,7 +92,7 @@
           "value": [
             {
               "name": "Horizontal",
-              "value": "Left"
+              "value": "Right"
             },
             {
               "name": "HorizontalOffset",
@@ -104,7 +104,7 @@
             },
             {
               "name": "VerticalOffset",
-              "value": 60
+              "value": 15
             }
           ]
         }
