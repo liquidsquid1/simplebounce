@@ -14,7 +14,7 @@ you visually.
 The cleanest and simplest theme for liquidbounce.*
 
 <h1>Preview</h1>
-<img src="https://github.com/liquidsquid1/simplebounce/blob/main/.github/img/asd.png" />
+<img src="https://github.com/liquidsquid1/simplebounce/blob/main/.github/img/pic.png" />
 
 <h1>Installation:</h1>
 - Clone the theme using Git, either on the "Download Zip" button on this page or through CLI
