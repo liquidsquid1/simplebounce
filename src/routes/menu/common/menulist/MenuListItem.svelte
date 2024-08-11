@@ -63,7 +63,7 @@
     cursor: grab;
 
     &:hover {
-      background-color: $accent-color;
+      background-color: $accent-color-1;
 
       .subtitle {
         color: $menu-text-color;

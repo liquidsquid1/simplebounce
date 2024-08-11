@@ -27,7 +27,7 @@
 
   .button-setting {
     border: none;
-    background-color: $accent-color;
+    background-color: $accent-color-1;
     color: $menu-text-color;
     font-family: "Inter", sans-serif;
     padding: 20px;

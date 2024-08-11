@@ -50,7 +50,7 @@
     }
 
     &.active {
-      color: $accent-color;
+      color: $accent-color-1;
     }
   }
 </style>

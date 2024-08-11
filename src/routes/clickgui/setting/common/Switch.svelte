@@ -71,14 +71,14 @@
 
     input:checked + .slider {
       background-color: color.scale(
-                      desaturate($accent-color, 60%),
+                      desaturate($accent-color-1, 60%),
               $lightness: -15%
       );
     }
 
     input:checked + .slider:before {
       transform: translateX(10px);
-      background-color: $accent-color;
+      background-color: $accent-color-1;
     }
   }
 </style>

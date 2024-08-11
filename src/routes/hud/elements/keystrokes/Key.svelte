@@ -36,11 +36,11 @@
     font-weight: 500;
     transition: ease box-shadow .2s;
     position: relative;
-    box-shadow: inset 0 0 0 0 $accent-color;
+    box-shadow: inset 0 0 0 0 $accent-color-1;
     text-align: center;
 
     &.active {
-      box-shadow: inset 0 0 0 25px $accent-color;
+      box-shadow: inset 0 0 0 25px $accent-color-1;
     }
   }
 </style>

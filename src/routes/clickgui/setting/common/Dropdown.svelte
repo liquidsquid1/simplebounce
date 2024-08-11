@@ -65,7 +65,7 @@
   }
 
   .head {
-    background-color: $accent-color;
+    background-color: $accent-color-1;
     padding: 6px 10px;
     cursor: pointer;
     display: flex;
@@ -105,7 +105,7 @@
   .options {
     padding: 6px 10px;
     background-color: $clickgui-base-color;
-    border: solid 1px $accent-color;
+    border: solid 1px $accent-color-1;
     border-top: none;
     border-radius: 0 0 3px 3px;
     z-index: 9999;
@@ -126,7 +126,7 @@
       }
 
       &.active {
-        color: $accent-color;
+        color: $accent-color-1;
       }
     }
   }

@@ -82,7 +82,7 @@
     font-family: monospace;
     font-size: 12px;
     color: $clickgui-text-color;
-    background-color: $accent-color;
+    background-color: $accent-color-1;
     border: none;
     padding: 6px 10px;
     width: 100%;
@@ -90,7 +90,7 @@
     transition: ease background-color .2s;
 
     &:hover {
-      background-color: darken(desaturate($accent-color, 30%), 10%);
+      background-color: darken(desaturate($accent-color-1, 30%), 10%);
     }
   }
 
@@ -101,7 +101,7 @@
     font-size: 12px;
     color: $clickgui-text-color;
     border: none;
-    border-bottom: solid 2px $accent-color;
+    border-bottom: solid 2px $accent-color-1;
     padding: 6px;
     transition: ease border-color .2s;
 

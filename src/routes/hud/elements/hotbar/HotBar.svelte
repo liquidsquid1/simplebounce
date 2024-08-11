@@ -196,7 +196,7 @@
     overflow: hidden;
 
     .slider {
-      border: solid 2px $accent-color;
+      border: solid 2px $accent-color-1;
       height: 45px;
       width: 45px;
       position: absolute;

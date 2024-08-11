@@ -39,7 +39,7 @@
         background: linear-gradient(
             to left,
             rgba(0, 0, 0, 0.5) 50%,
-            $accent-color 50%
+            $accent-color-1 50%
         );
         background-size: 200% 100%;
         background-position: right bottom;

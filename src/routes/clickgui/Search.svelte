@@ -181,7 +181,7 @@
   }
 
   .results {
-    border-top: solid 2px $accent-color;
+    border-top: solid 2px $accent-color-1;
     padding: 5px 25px;
     max-height: 250px;
     overflow: auto;
@@ -194,7 +194,7 @@
 
       &.enabled {
         .module-name {
-          color: $accent-color;
+          color: $accent-color-1;
         }
       }
 

@@ -34,7 +34,7 @@
       display: flex;
       align-items: center;
       border-radius: 5px;
-      background-color: $accent-color;
+      background-color: $accent-color-1;
       transition: ease background-color .2s;
       padding: 15px;
 
@@ -42,7 +42,7 @@
         background-color: $menu-text-color;
 
         .title {
-          color: $accent-color;
+          color: $accent-color-1;
         }
       }
     }

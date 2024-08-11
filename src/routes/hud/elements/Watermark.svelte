@@ -1,5 +1,5 @@
 <span class="watermark">
-    <span class="blue"><b>L</b></span>iquidbounce
+    <span class="coloured">L</span>iquidbounce
 </span>
 
 <style lang="scss">
@@ -11,7 +11,7 @@
         color: white;
         text-shadow: 3px 3px #000000;
     }
-    .blue {
-        color: $accent-color;
+    .coloured {
+        color: $accent-color-1;
     }
 </style>

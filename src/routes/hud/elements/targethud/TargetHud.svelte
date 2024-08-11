@@ -47,7 +47,7 @@
         width: 330px;
         background-color: rgba(36, 36, 36, 1);
         overflow: hidden;
-        border-bottom: 6px solid $accent-color;
+        border-bottom: 6px solid $accent-color-1;
         max-height: 96px;
     }
 

@@ -61,7 +61,7 @@
   }
 
   .header {
-    background-color: $accent-color;
+    background-color: $accent-color-1;
     padding: 20px;
     display: flex;
     column-gap: 20px;

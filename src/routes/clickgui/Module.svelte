@@ -138,7 +138,7 @@
         left: 0;
         width: calc(100% - 4px);
         height: calc(100% - 4px);
-        border: solid 2px $accent-color;
+        border: solid 2px $accent-color-1;
       }
 
       &:hover {
@@ -153,7 +153,7 @@
 
     .settings {
       background-color: rgba($clickgui-base-color, 0.5);
-      border-left: solid 4px $accent-color;
+      border-left: solid 4px $accent-color-1;
       padding: 0 11px 0 7px;
     }
 
