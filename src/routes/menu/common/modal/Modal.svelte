@@ -69,7 +69,7 @@
       display: block;
       height: 8px;
       width: calc(90%);
-      background-color: $-1;
+      background-color: $accent-color-1;
       bottom: -25px;
       left: 50%;
       transform: translateX(-50%);
