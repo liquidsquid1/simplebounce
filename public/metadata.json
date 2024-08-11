@@ -329,14 +329,14 @@
       "value": [
         {
           "name": "Enabled",
-          "value": false
+          "value": true
         },
         {
           "name": "Alignment",
           "value": [
             {
               "name": "Horizontal",
-              "value": "Left"
+              "value": "CenterTranslated"
             },
             {
               "name": "HorizontalOffset",
@@ -344,11 +344,11 @@
             },
             {
               "name": "Vertical",
-              "value": "Bottom"
+              "value": "CenterTranslated"
             },
             {
               "name": "VerticalOffset",
-              "value": 65
+              "value": 0
             }
           ]
         }
