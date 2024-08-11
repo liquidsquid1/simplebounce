@@ -146,7 +146,7 @@
       }
 
       &.enabled {
-        background: linear-gradient(90deg, rgb(127, 0, 255), rgb(59, 128, 255));
+        background: linear-gradient(90deg, $accent-color-1, $accent-color-2);
         color: white;
       }
     }
