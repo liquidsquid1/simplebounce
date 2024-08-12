@@ -1,3 +1,6 @@
+> [!NOTE]
+> This theme is built for [Liquidbounce Nextgen](http://github.com/CCBlueX/Liquidbounce/blob/nextgen)
+
 <h1 align="center">
   simplebounce
 </h1>
@@ -26,10 +29,10 @@ npm install
 npm run build
 ```
 
-- Open explorer (or dolphin/any other file manager) and copy the "dist" folder into your liquidbounce theme folder
-```
-explorer .
-```
+- Copy the "dist" folder from the build into your Liquidbounce folder.
+
+> [!TIP]
+> Type `explorer .` in the terminal to quickly open up an explorer window to copy the theme from.
 
 The command to open your theme folder is `.client theme browse`
 
