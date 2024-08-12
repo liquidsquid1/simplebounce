@@ -51,7 +51,7 @@
   @import "../../colors.scss";
 
   .clickgui {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(34, 34, 34, 0);
     overflow: hidden;
     position: relative;
     will-change: opacity;
