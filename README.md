@@ -6,11 +6,7 @@
   a simplistic yet modern looking liquidbounce theme.
 </p>
 
-<h1>- Built to perform.</h1>
-Built for you, this theme will not disrupt
-you visually.
-
-<h1>- Simple. Clean. Usable.</h1>
+<h1>Simple. Clean. Usable.</h1>
 The cleanest and simplest theme for liquidbounce.*
 
 <h1>Preview</h1>
