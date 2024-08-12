@@ -12,7 +12,8 @@
   .notification {
     display: grid;
     grid-template-areas:
-            "a b";
+            "a" 
+            "b";
     grid-template-columns: max-content 1fr;
     border-left: 2px solid rgb(127, 0, 255);
     column-gap: 10px;
@@ -23,6 +24,7 @@
     margin-bottom: 10px;
   }
 
+  
   .title {
     grid-area: a;
     font-size: 12px;
