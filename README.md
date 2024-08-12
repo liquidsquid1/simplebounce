@@ -37,4 +37,4 @@ explorer .
 
 The command to open your theme folder is `.client theme browse`
 
-- Load the theme with `.client theme load dist`
+- Load the theme with `.client theme set dist`
