@@ -1,8 +1,4 @@
-<script lang="ts">
-    import {fade} from "svelte/transition";
-</script>
-
-<img class="logo" src="img/lb-logo.svg" alt="logo" out:fade|global={{duration: 500}}>
+<img class="logo" src="img/lb-logo.svg" alt="logo">
 
 <style lang="scss">
   .logo {

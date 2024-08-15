@@ -1,5 +1,4 @@
 <script lang="ts">
-    import {fly} from "svelte/transition";
     import {afterUpdate} from "svelte";
 
     export let text: string;
@@ -21,7 +20,7 @@
 
 <div bind:this={element}>
     {#if shown}
-        <div transition:fly="{{ y: -10, duration: 200 }}" class="tooltip" style="background-color: {color};">{text}</div>
+        <div class="tooltip" style="background-color: {color};">{text}</div>
     {/if}
 </div>
 

@@ -1,8 +1,4 @@
-<script lang="ts">
-    import {fly} from "svelte/transition";
-</script>
-
-<div class="bottom-button-wrapper" transition:fly|global={{duration: 700, y: 100}}>
+<div class="bottom-button-wrapper">
     <slot/>
 </div>
 
