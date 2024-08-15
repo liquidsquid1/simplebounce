@@ -62,11 +62,16 @@
 <style lang="scss">
   @import "../../../colors.scss";
 
+  .arraylist {
+    background: -webkit-linear-gradient(90deg, $accent-color-1, $accent-color-2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
   .module {
     text-transform: lowercase;
     background-color: rgba(0, 0, 0, 0);
     text-shadow: 2px 2px #000000;
-    color: $arraylist-text-color;
     font-size: 16px;
     padding: 0px 2px;
     width: max-content;
@@ -75,7 +80,7 @@
   }
 
   .tag {
-    color: $arraylist-tag-color;
+    -webkit-text-fill-color: $arraylist-tag-color;
     text-transform: lowercase;
   }
 </style>
