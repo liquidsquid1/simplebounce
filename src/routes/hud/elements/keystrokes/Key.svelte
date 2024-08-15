@@ -25,13 +25,13 @@
   @import "../../../../colors.scss";
 
   .key {
-    height: 50px;
+    height: 48px;
+    width: 48px;
     background-color: rgba(24, 24, 24, .68);
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 5px;
     font-size: 14px;
     font-weight: 500;
     transition: fade .2s;
