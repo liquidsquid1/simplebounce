@@ -63,20 +63,27 @@
   @import "../../../colors.scss";
 
   .arraylist {
-    background: -webkit-linear-gradient(90deg, $accent-color-1, $accent-color-2);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
   }
 
   .module {
     text-transform: lowercase;
-    background-color: rgba(0, 0, 0, 0);
-    text-shadow: 2px 2px #000000;
     font-size: 16px;
     padding: 0px 2px;
     width: max-content;
     font-weight: 400;
     margin-left: auto;
+    color: $accent-color-1;
+    background-image: linear-gradient(90deg, $accent-color-1 0%, $accent-color-2 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 300%;
+    animation: gradient-animation 3s ease-in-out infinite;
+  }
+
+  @keyframes gradient-animation {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
   }
 
   .tag {
