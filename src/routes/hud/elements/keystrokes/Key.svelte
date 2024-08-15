@@ -34,13 +34,13 @@
     justify-content: center;
     font-size: 14px;
     font-weight: 500;
-    transition: fade .2s;
+    transition: fade .5s;
     position: relative;
     box-shadow: inset 0 0 0 0 $accent-color-1;
     text-align: center;
 
     &.active {
-      background: linear-gradient(90deg, $accent-color-1, $accent-color-2);
+      background: linear-gradient(45deg, $accent-color-1, $accent-color-2);
     }
   }
 </style>
