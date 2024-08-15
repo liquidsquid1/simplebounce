@@ -26,21 +26,21 @@
 
   .key {
     height: 50px;
-    background-color: rgba($keystrokes-base-color, .68);
-    color: $keystrokes-text-color;
+    background-color: rgba(24, 24, 24, .68);
+    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 5px;
     font-size: 14px;
     font-weight: 500;
-    transition: ease box-shadow .2s;
+    transition: fade .2s;
     position: relative;
     box-shadow: inset 0 0 0 0 $accent-color-1;
     text-align: center;
 
     &.active {
-      box-shadow: inset 0 0 0 25px $accent-color-1;
+      background: linear-gradient(90deg, $accent-color-1, $accent-color-2);
     }
   }
 </style>
