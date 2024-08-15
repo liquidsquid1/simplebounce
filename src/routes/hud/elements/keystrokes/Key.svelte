@@ -26,7 +26,7 @@
 
   .key {
     height: 48px;
-    width: 48px;
+    min-width: 48px;
     background-color: rgba(24, 24, 24, .68);
     color: white;
     display: flex;
