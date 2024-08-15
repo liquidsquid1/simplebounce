@@ -10,10 +10,8 @@
 
 <style lang="scss">
   .notification {
-    display: grid;
-    grid-template-areas:
-            "a b";
-    grid-template-columns: max-content 1fr;
+    display: flexbox;
+    flex-flow: row wrap;
     border-left: 2px solid rgb(127, 0, 255);
     column-gap: 10px;
     background: rgba(24, 24, 24, 1.0);
@@ -24,14 +22,12 @@
   }
 
   .title {
-    grid-area: a;
     font-size: 12px;
     color: white;
     text-shadow: rgba(128,0,255,0.9) 0px 0px 12px;
   }
 
   .message {
-    grid-area: b;
     font-size: 12px;
     color: #cbd1e3;
   }
