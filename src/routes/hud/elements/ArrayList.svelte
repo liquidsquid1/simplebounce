@@ -62,9 +62,6 @@
 <style lang="scss">
   @import "../../../colors.scss";
 
-  .arraylist {
-  }
-
   .module {
     text-transform: lowercase;
     font-size: 16px;
