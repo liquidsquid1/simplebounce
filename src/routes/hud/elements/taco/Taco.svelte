@@ -5,9 +5,6 @@
   <div class="content">
     <p>If you enjoy this theme, be sure to star it on Github</p>
     <p>You may close this message by turning off the "Taco" section in the HUD module (look at the cool new ClickGUI while you're at it)</p>
-
-    <h1>v0.0.0</h1>
-    <p>Wow, didn't know you were here this early. Welp, I've just been adding a few things here and there so its best to check back on the github for new commits.</p>
   </div>
 </div>
 
