@@ -9,10 +9,13 @@
 </div>
 
 <style lang="scss">
+
+  @import "../../../../colors.scss";
+
   .notification {
     display: flex;
     flex-flow: row wrap;
-    border-left: 2px solid rgb(127, 0, 255);
+    border-left: 2px solid $accent-color-1;
     column-gap: 10px;
     background: rgba(24, 24, 24, 1.0);
     min-width: 250px;
@@ -24,7 +27,7 @@
   .title {
     font-size: 12px;
     color: white;
-    text-shadow: rgba(128,0,255,0.9) 0px 0px 12px;
+    text-shadow: $accent-color-2 0px 0px 12px;
   }
 
   .message {
