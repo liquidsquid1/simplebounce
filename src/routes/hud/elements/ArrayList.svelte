@@ -63,9 +63,16 @@
   @import "../../../colors.scss";
 
   .arraylist {
-    background: -webkit-linear-gradient(90deg, $accent-color-1, $accent-color-2);
+    background-image: linear-gradient(90deg, $accent-color-1, $accent-color-2);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    animation: animation 6s ease-in-out infinite;
+  }
+
+    @keyframes animation {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
   }
 
   .module {
