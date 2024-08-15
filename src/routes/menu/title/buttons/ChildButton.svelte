@@ -1,5 +1,4 @@
 <script lang="ts">
-    import {fade} from "svelte/transition";
     import {createEventDispatcher} from "svelte";
     import ToolTip from "../../common/ToolTip.svelte";
 
@@ -17,9 +16,9 @@
 
     <div class="icon">
         {#if parentHovered}
-            <img transition:fade="{{ duration: 200 }}" src="img/menu/icon-{icon}-hover.svg" alt={title}>
+            <img src="img/menu/icon-{icon}-hover.svg" alt={title}>
         {:else}
-            <img transition:fade="{{ duration: 200 }}" src="img/menu/icon-{icon}.svg" alt={title}>
+            <img src="img/menu/icon-{icon}.svg" alt={title}>
         {/if}
     </div>
 
