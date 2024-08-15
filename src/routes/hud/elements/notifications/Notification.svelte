@@ -10,12 +10,12 @@
 
 <style lang="scss">
   .notification {
-    display: flexbox;
+    display: flex;
     flex-flow: row wrap;
     border-left: 2px solid rgb(127, 0, 255);
     column-gap: 10px;
     background: rgba(24, 24, 24, 1.0);
-    width: 300px;
+    min-width: 250px;
     overflow: hidden;
     padding: 10px;
     margin-bottom: 10px;
