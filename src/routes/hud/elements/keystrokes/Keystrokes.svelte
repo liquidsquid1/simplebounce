@@ -42,6 +42,6 @@
         "b c d"
         "e e e";
       grid-template-columns: repeat(3, 50px);
-      gap: 5px;
+      gap: 2px;
     }
 </style>
