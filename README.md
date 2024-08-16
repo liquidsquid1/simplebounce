@@ -1,5 +1,7 @@
 > [!NOTE]
-> This theme is built for [Liquidbounce Nextgen](http://github.com/CCBlueX/Liquidbounce/blob/nextgen)
+> This theme is built for [Liquidbounce Nextgen](http://github.com/CCBlueX/Liquidbounce/blob/nextgen) commit 8360719
+> 
+> If the theme is out of date with the [latest theme changes](https://github.com/CCBlueX/LiquidBounce/commits/nextgen/src-theme), please make a feature issue.
 
 <h1 align="center">
   simplebounce
