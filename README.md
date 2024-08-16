@@ -15,20 +15,18 @@
 <img src="https://github.com/liquidsquid1/simplebounce/blob/main/.github/img/pic.png" />
 
 <h1>Installation:</h1>
-- Clone the theme using Git, either on the "Download Zip" button on this page or through CLI
+Clone the theme using Git, either on the "Download Zip" button on this page or through CLI
 
 ```
 git clone https://github.com/liquidsquid1/simplebounce.git
 ```
-
-- Build the theme using Node.JS (download it if you haven't already)
+Build the theme using Node.JS (download it if you haven't already)
 ```
 cd simplebounce
 npm install
 npm run build
 ```
-
-- Copy the "dist" folder from the build into your Liquidbounce folder.
+Copy the "dist" folder from the build into your Liquidbounce folder.
 
 > [!TIP]
 > Type `explorer .` in the terminal to quickly open up an explorer window to copy the theme from.
