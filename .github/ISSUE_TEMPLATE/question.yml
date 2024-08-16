@@ -8,7 +8,7 @@ body:
       value: |
         🧐 **Guidelines:**
         
-        - Write a vague title for you're question (e.g. "Question about compiling with Node")
+        - Write a vague title for your question (e.g. "Question about compiling with Node")
         - Keep your questions concise
 
   - type: textarea
