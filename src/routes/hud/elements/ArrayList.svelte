@@ -72,11 +72,10 @@
     width: max-content;
     font-weight: 400;
     margin-left: auto;
-    border-right: solid 2px $accent-color-2
   }
 
   .tag {
-    color: $arraylist-tag-color;
+    color: $accent-color-2;
     text-transform: lowercase;
   }
 </style>
