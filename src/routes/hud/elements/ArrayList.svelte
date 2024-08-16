@@ -75,7 +75,7 @@
   }
 
   .tag {
-    color: $accent-color-2;
+    color: rgb(127, 127, 127);
     text-transform: lowercase;
   }
 </style>
