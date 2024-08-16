@@ -6,11 +6,8 @@
 </h1>
 
 <p align="center">
-  a simplistic yet modern looking liquidbounce theme.
+  a simple, clean and usable theme for liquidbounce.
 </p>
-
-<h1>Simple. Clean. Usable.</h1>
-The cleanest and simplest theme for liquidbounce.*
 
 <h1>Preview</h1>
 <img src="https://github.com/liquidsquid1/simplebounce/blob/main/.github/img/pic.png" />
