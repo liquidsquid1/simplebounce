@@ -1,0 +1,19 @@
+name: 🤔 Question
+description: Ask a question
+title: "[?] "
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🧐 **Guidelines:**
+        
+        - Write a vague title for you're question (e.g. "Question about compiling with Node")
+        - Keep your questions concise
+
+  - type: textarea
+    attributes:
+      label: Question Box
+      description: Write your question here.
+    validations:
+      required: true
