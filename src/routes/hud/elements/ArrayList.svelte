@@ -67,7 +67,7 @@
     background-color: rgba(0, 0, 0, 0.5);
     color: $accent-color-1;
     border-right: 2px solid $accent-color-1;
-    font-size: 12px;
+    font-size: 14px;
     padding: 0px 6px;
     width: max-content;
     font-weight: 400;
