@@ -65,18 +65,18 @@
   .module {
     text-transform: lowercase;
     background-color: rgba(0, 0, 0, 0.5);
-    text-shadow: 2px 2px #000000;
     color: $accent-color-1;
-    border-right: $accent-color-1;
+    border-right: 2px solid $accent-color-1;
     font-size: 16px;
-    padding: 0px 4px;
+    padding: 0px 6px;
     width: max-content;
     font-weight: 400;
     margin-left: auto;
   }
 
   .tag {
-    color: rgb(127, 127, 127);
+    color: rgb(64, 64, 64
+    text-shadow: 2px 2px #000000;
     text-transform: lowercase;
   }
 </style>
