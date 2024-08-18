@@ -47,7 +47,7 @@
         await updateEnabledModules();
     });
 
-    let speed = 10;
+    let speed = 25;
 
     interface RGBColor {
         r: number;
@@ -58,7 +58,7 @@
     let progress = 0;
     const tSpeed = (0.1 / 20) * speed;
 
-    function arraylistGradient() {
+    export function arraylistGradient() {
         const arraylist = document.getElementByClassName("arraylist");
         if (arraylist == null) return;
         var color1 = window.getComputedStyle(arraylist).getPropertyValue("--accent-color-1").trim();
