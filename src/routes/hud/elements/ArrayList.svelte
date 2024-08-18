@@ -72,11 +72,12 @@
             element.style.color = `rgb( ${rgb.r}, ${rgb.g}, ${rgb.b})`;
             element.style.borderRight = `2px solid rgb( ${rgb.r}, ${rgb.g}, ${rgb.b})`;
         }
-    }
 
-    progress += tSpeed;
-    if (progress >= Math.PI * 2) {
-        progress = 0;
+        progress += tSpeed;
+        if (progress >= Math.PI * 2) {
+            progress = 0;
+        }
+
     }
 
     export function getRgb(color: string): RGBColor {
