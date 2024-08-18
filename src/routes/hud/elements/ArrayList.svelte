@@ -75,7 +75,7 @@
   }
 
   .tag {
-    color: rgb(64, 64, 64
+    color: rgb(200, 200, 200);
     text-shadow: 2px 2px #000000;
     text-transform: lowercase;
   }
