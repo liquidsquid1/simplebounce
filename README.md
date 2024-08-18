@@ -9,6 +9,8 @@
 
 <p align="center">
   a simple, clean and usable theme for liquidbounce.
+  
+  <img src="https://img.shields.io/github/downloads/liquidsquid1/simplebounce/total?label=Github%20Downloads" alt="Downloads" />
 </p>
 
 <h1>Preview</h1>

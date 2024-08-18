@@ -16,11 +16,11 @@
 
         const modulesWithWidths = visibleModules.map(module => {
                 let formattedName = $spaceSeperatedNames ? convertToSpacedString(module.name) : module.name;
-                let fullName = module.tag == null ? formattedName : formattedName.toLowerCase() + " " + module.tag.toLowerCase();
+                let fullName = module.tag == null ? formattedName : formattedName + " " + module.tag;
 
                 return {
                     ...module,
-                    width: getTextWidth(fullName, "500 16px Minecraftia")
+                    width: getTextWidth(fullName.toLowerCase(), "400 14px Minecraftia")
                 };
             }
         );
