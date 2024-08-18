@@ -62,6 +62,11 @@
 <style lang="scss">
   @import "../../../colors.scss";
 
+  :root {
+    --accent-color-1: #{$accent-color-1};
+    --accent-color-2: #{$accent-color-2};
+  }
+
   .module {
     text-transform: lowercase;
     background-color: rgba(0, 0, 0, 0.5);
