@@ -64,11 +64,12 @@
 
   .module {
     text-transform: lowercase;
-    background-color: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.5);
     text-shadow: 2px 2px #000000;
     color: $accent-color-1;
+    border-right: $accent-color-1;
     font-size: 16px;
-    padding: 0px 2px;
+    padding: 0px 4px;
     width: max-content;
     font-weight: 400;
     margin-left: auto;
