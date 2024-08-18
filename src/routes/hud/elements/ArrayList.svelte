@@ -59,14 +59,14 @@
     const tSpeed = (0.1 / 20) * speed;
 
     export function arraylistGradient() {
-        const arraylist = document.getElementByClassName("arraylist");
+        const arraylist = document.getElementById("arraylist");
         if (arraylist == null) return;
         var color1 = window.getComputedStyle(arraylist).getPropertyValue("--accent-color-1").trim();
         var color2 = window.getComputedStyle(arraylist).getPropertyValue("--accent-color-2").trim();
         const modules = arraylist.children as HTMLCollectionOf<HTMLElement>;
         for (let i = 0; i < modules.length; i++) {
             const element = modules[i];
-            if (element.className != "module") continue;
+            if (element.id != "module") continue;
             const percentage = 1 - (i / modules.length) + (.5 * Math.sin(.5 * i + progress));;
             const rgb = colorInterpolate(color1, color2, percentage);
             element.style.color = `rgb( ${rgb.r}, ${rgb.g}, ${rgb.b})`;
@@ -111,12 +111,12 @@
     setInterval(arraylistGradient, speed)
 </script>
 
-<div class="arraylist">
+<div class="arraylist" id="arraylist">
     {#each enabledModules as {name, tag} (name)}
-        <div class="module" animate:flip={{ duration: 200 }} in:fly={{ x: 50, duration: 200 }}>
+        <div class="module" id="module" animate:flip={{ duration: 200 }} in:fly={{ x: 50, duration: 200 }}>
             {$spaceSeperatedNames ? convertToSpacedString(name) : name}
             {#if tag}
-                <span class="tag"> {tag}</span>
+                <span class="tag" id="tag"> {tag}</span>
             {/if}
         </div>
     {/each}
