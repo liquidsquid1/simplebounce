@@ -16,7 +16,7 @@
 
         const modulesWithWidths = visibleModules.map(module => {
                 let formattedName = $spaceSeperatedNames ? convertToSpacedString(module.name) : module.name;
-                let fullName = module.tag == null ? formattedName : formattedName + " " + module.tag;
+                let fullName = module.tag == null ? formattedName : formattedName.toLowerCase() + " " + module.tag.toLowerCase();
 
                 return {
                     ...module,
