@@ -36,7 +36,7 @@
             },
             {
               "name": "HorizontalOffset",
-              "value": 15
+              "value": 20
             },
             {
               "name": "Vertical",
@@ -44,7 +44,7 @@
             },
             {
               "name": "VerticalOffset",
-              "value": 15
+              "value": 20
             }
           ]
         }
@@ -96,7 +96,7 @@
             },
             {
               "name": "HorizontalOffset",
-              "value": 15
+              "value": 20
             },
             {
               "name": "Vertical",
@@ -104,7 +104,7 @@
             },
             {
               "name": "VerticalOffset",
-              "value": 15
+              "value": 20
             }
           ]
         }
@@ -126,7 +126,7 @@
             },
             {
               "name": "HorizontalOffset",
-              "value": 15
+              "value": 20
             },
             {
               "name": "Vertical",
@@ -134,7 +134,7 @@
             },
             {
               "name": "VerticalOffset",
-              "value": 15
+              "value": 20
             }
           ]
         }
@@ -299,7 +299,7 @@
       "value": [
         {
           "name": "Enabled",
-          "value": false
+          "value": true
         },
         {
           "name": "Alignment",
@@ -310,7 +310,7 @@
             },
             {
               "name": "HorizontalOffset",
-              "value": 15
+              "value": 20
             },
             {
               "name": "Vertical",
@@ -318,7 +318,7 @@
             },
             {
               "name": "VerticalOffset",
-              "value": 15
+              "value": 20
             }
           ]
         }
