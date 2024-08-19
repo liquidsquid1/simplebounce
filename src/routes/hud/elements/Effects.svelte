@@ -55,7 +55,6 @@
     padding: 6px;
 
     .duration {
-      font-family: monospace;
       color: white;
     }
   }
