@@ -47,7 +47,7 @@
         await updateEnabledModules();
     });
 
-    let speed = 25;
+    let speed = 10;
 
     interface RGBColor {
         r: number;
