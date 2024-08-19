@@ -38,6 +38,7 @@
     //position: fixed;
     //left: 15px;
     //top: 550px;
+    border-right: 2px solid $accent-color-1;
     overflow: hidden;
     font-size: 14px;
   }
