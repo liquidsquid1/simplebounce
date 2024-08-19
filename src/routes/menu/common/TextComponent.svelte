@@ -150,7 +150,7 @@
         display: inline;
 
         &.allow-preformatting {
-            font-family: monospace;
+            font-family: "Minecraftia";
             white-space: pre;
         }
 
