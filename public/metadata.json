@@ -175,26 +175,26 @@
       "value": [
         {
           "name": "Enabled",
-          "value": false
+          "value": true
         },
         {
           "name": "Alignment",
           "value": [
             {
               "name": "Horizontal",
-              "value": "Left"
+              "value": "Right"
             },
             {
               "name": "HorizontalOffset",
-              "value": 15
+              "value": 20
             },
             {
               "name": "Vertical",
-              "value": "Top"
+              "value": "Bottom"
             },
             {
               "name": "VerticalOffset",
-              "value": 550
+              "value": 128
             }
           ]
         }
