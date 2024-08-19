@@ -23,7 +23,6 @@
             {#each scoreboard.entries as {name, score}}
                 <div class="row">
                     <TextComponent fontSize={14} allowPreformatting={true} textComponent={name}/>
-                    <TextComponent fontSize={14} allowPreformatting={true} textComponent={score}/>
                 </div>
             {/each}
         </div>
