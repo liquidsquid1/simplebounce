@@ -33,7 +33,7 @@
   @import "../../../colors.scss";
 
   .scoreboard {
-    width: max-content;
+    min-width: 200px;
     //position: fixed;
     //left: 15px;
     //top: 550px;
@@ -43,7 +43,7 @@
   }
 
   .entries {
-    background-color: rgba($scoreboard-base-color, 0.8);
+    background-color: rgba($scoreboard-base-color, 0.4);
     padding: 4px;
   }
 
@@ -55,7 +55,7 @@
 
   .header {
     text-align: center;
-    background-color: rgba($scoreboard-base-color, 0.8);
+    background-color: rgba($scoreboard-base-color, 0.4);
     padding: 4px 10px;
   }
 </style>
