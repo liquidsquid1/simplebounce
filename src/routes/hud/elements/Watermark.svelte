@@ -18,6 +18,6 @@
         text-shadow: 3px 3px #000000;
     }
     .coloured {
-        animation: linear infinite 2s cycle;
+        animation: linear infinite 5s cycle;
     }
 </style>
