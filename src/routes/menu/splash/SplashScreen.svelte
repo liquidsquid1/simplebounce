@@ -1,10 +1,11 @@
-<img class="logo" src="img/lb-logo.svg" alt="logo">
+<span class="splashtext">simplebounce</span>
 
 <style lang="scss">
-  .logo {
+  .splashtext {
     position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-size: 32px;
   }
 </style>
