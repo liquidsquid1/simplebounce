@@ -38,25 +38,24 @@
     //position: fixed;
     //left: 15px;
     //top: 550px;
-    border-radius: 5px;
     overflow: hidden;
     font-size: 14px;
   }
 
   .entries {
     background-color: rgba($scoreboard-base-color, 0.5);
-    padding: 10px;
+    padding: 4px;
   }
 
   .row {
     display: flex;
-    column-gap: 15px;
+    column-gap: 8px;
     justify-content: space-between;
   }
 
   .header {
     text-align: center;
-    background-color: rgba($scoreboard-base-color, 0.68);
-    padding: 7px 10px;
+    background-color: rgba($scoreboard-base-color, 0.5);
+    padding: 4px 10px;
   }
 </style>
