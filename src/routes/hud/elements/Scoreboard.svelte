@@ -23,7 +23,6 @@
             {#each scoreboard.entries as {name, score}}
                 <div class="row">
                     <TextComponent fontSize={14} allowPreformatting={true} textComponent={name}/>
-                    <TextComponent fontSize={14} allowPreformatting={true} textComponent={score}/>
                 </div>
             {/each}
         </div>
@@ -44,7 +43,7 @@
   }
 
   .entries {
-    background-color: rgba($scoreboard-base-color, 0.5);
+    background-color: rgba($scoreboard-base-color, 0.8);
     padding: 4px;
   }
 
@@ -56,7 +55,7 @@
 
   .header {
     text-align: center;
-    background-color: rgba($scoreboard-base-color, 0.5);
+    background-color: rgba($scoreboard-base-color, 0.8);
     padding: 4px 10px;
   }
 </style>
