@@ -139,6 +139,7 @@
     text-shadow: $accent-color-1 0px 0px 8px;
     font-size: 14px;
     padding: 0px 6px;
+    padding-bottom: 1px;
     width: max-content;
     font-weight: 400;
     margin-left: auto;
