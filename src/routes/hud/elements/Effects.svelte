@@ -42,13 +42,17 @@
 <style lang="scss">
   @import "../../../colors.scss";
 
+  .effects {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-left: 2px solid $accent-color-1;
+  }
+
   .effect {
     font-weight: 500;
-    border-left: 2px solid $accent-color-1;
-    background-color: rgba(0, 0, 0, 0.5);
     text-shadow: $accent-color-1 0px 0px 8px;
     font-size: 14px;
     text-align: right;
+    padding: 6px;
 
     .duration {
       font-family: monospace;
