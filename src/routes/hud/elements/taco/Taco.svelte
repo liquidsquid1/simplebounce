@@ -1,10 +1,11 @@
 <div class="window">
   <div class="titlebar">
-    <span class="title">Thanks for using SimpleBounce</span>
+    <span class="title">About Simplebounce.</span>
   </div>
   <div class="content">
-    <p>If you enjoy this theme, be sure to star it on Github</p>
-    <p>You may close this message by turning off the "Taco" section in the HUD module (look at the cool new ClickGUI while you're at it)</p>
+    <p>simplebounce</p>
+    <p>v0.0.0 beta</p>
+    <p>by @liquid.squid</p>
   </div>
 </div>
 
