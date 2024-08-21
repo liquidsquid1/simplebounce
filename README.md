@@ -15,7 +15,7 @@
   <img src="https://img.shields.io/github/downloads/liquidsquid1/simplebounce/total?label=Github%20Downloads" alt="Downloads" />
 </p>
 
-<h1>Preview (10th Aug)</h1>
+<h1>Preview (21st Aug)</h1>
 <img src="https://github.com/liquidsquid1/simplebounce/blob/main/.github/img/pic.png" />
 
 <h1>Installation:</h1>
