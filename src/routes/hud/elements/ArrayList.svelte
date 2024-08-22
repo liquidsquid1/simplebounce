@@ -71,7 +71,7 @@
             const rgb = colorInterpolate(color1, color2, percentage);
             element.style.color = `rgb( ${rgb.r}, ${rgb.g}, ${rgb.b})`;
             element.style.borderRight = `2px solid rgb( ${rgb.r}, ${rgb.g}, ${rgb.b})`;
-            element.style.textShadow = `rgb( ${rgb.r}, ${rgb.g}, ${rgb.b}) 0px 0px 8px`;
+            element.style.textShadow = `rgb( ${rgb.r}, ${rgb.g}, ${rgb.b}) 0px 0px 4px, rgb( ${rgb.r}, ${rgb.g}, ${rgb.b}) 0px 0px 12px`;
         }
 
         progress += tSpeed;
@@ -136,7 +136,7 @@
     background-color: rgba(0, 0, 0, 0.5);
     color: $accent-color-1;
     border-right: 2px solid $accent-color-1;
-    text-shadow: $accent-color-1 0px 0px 12px;
+    text-shadow: $accent-color-1 0px 0px 4px, $accent-color-1 0px 0px 12px;
     font-size: 14px;
     padding: 0px 6px;
     padding-bottom: 1px;
