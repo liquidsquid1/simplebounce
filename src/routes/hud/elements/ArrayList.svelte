@@ -136,7 +136,7 @@
     background-color: rgba(0, 0, 0, 0.5);
     color: $accent-color-1;
     border-right: 2px solid $accent-color-1;
-    text-shadow: $accent-color-1 0px 0px 8px;
+    text-shadow: $accent-color-1 0px 0px 12px;
     font-size: 14px;
     padding: 0px 6px;
     padding-bottom: 1px;
