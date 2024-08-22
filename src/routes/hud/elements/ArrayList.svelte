@@ -147,6 +147,7 @@
 
   .tag {
     color: rgb(200, 200, 200);
+    text-shadow: none;
     text-transform: lowercase;
   }
 </style>
