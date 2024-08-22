@@ -1,7 +1,7 @@
 {
-  "name": "LiquidBounce",
-  "version": "0.1.0",
-  "author": "CCBlueX",
+  "name": "SimpleBounce",
+  "version": "0.0.0",
+  "author": "@liquid.squid",
   "supports": [
     "clickgui",
     "title",
@@ -115,7 +115,7 @@
       "value": [
         {
           "name": "Enabled",
-          "value": true
+          "value": false
         },
         {
           "name": "Alignment",
@@ -175,7 +175,7 @@
       "value": [
         {
           "name": "Enabled",
-          "value": true
+          "value": false
         },
         {
           "name": "Alignment",
@@ -269,7 +269,7 @@
       "value": [
         {
           "name": "Enabled",
-          "value": false
+          "value": true
         },
         {
           "name": "Alignment",
@@ -280,7 +280,7 @@
             },
             {
               "name": "HorizontalOffset",
-              "value": 15
+              "value": 20
             },
             {
               "name": "Vertical",
@@ -288,7 +288,7 @@
             },
             {
               "name": "VerticalOffset",
-              "value": 15
+              "value": 20
             }
           ]
         }

@@ -27,7 +27,7 @@
   .title {
     font-size: 12px;
     color: white;
-    text-shadow: $accent-color-2 0px 0px 12px;
+    text-shadow: $accent-color-1 0px 0px 12px;
   }
 
   .message {
