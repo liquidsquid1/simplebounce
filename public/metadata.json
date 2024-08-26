@@ -340,15 +340,15 @@
             },
             {
               "name": "HorizontalOffset",
-              "value": 0
+              "value": 100
             },
             {
               "name": "Vertical",
-              "value": "CenterTranslated"
+              "value": "Bottom"
             },
             {
               "name": "VerticalOffset",
-              "value": 0
+              "value": 40
             }
           ]
         }
