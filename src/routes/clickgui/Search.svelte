@@ -187,6 +187,14 @@
     overflow: auto;
 
     .result {
+
+        font-size: 16px;
+        padding: 10px 0;
+        transition: ease padding-left 0.2s;
+        cursor: pointer;
+        display: grid;
+        grid-template-columns: max-content 1fr max-content;
+
       .module-name {
         color: $clickgui-text-dimmed-color;
         transition: ease color 0.2s;
@@ -202,13 +210,6 @@
         color: rgba($clickgui-text-dimmed-color, .6);
         margin-left: 10px;
       }
-
-      font-size: 16px;
-      padding: 10px 0;
-      transition: ease padding-left 0.2s;
-      cursor: pointer;
-      display: grid;
-      grid-template-columns: max-content 1fr max-content;
 
       &.selected {
         padding-left: 10px;
